@@ -1,0 +1,26 @@
+@import '../global/variable.scss';
+
+.initial-page {
+  position: relative;
+  display: inline-flex;
+  
+  width: 100%;
+  height: 100%;
+
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: $mn-screen-lg) {
+    align-items: center;
+  }
+
+  &-image {
+    display: none;
+    @media (min-width: $mn-screen-xlg) {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
+}
