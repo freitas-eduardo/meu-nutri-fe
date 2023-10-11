@@ -14,8 +14,9 @@ const InitialCard: React.FC = () => {
     >
       <Card.Grid style={{ width: "100%" }}>
         <Link
-          href={"/signin?type=patient"}
+          href={"/sign-in?type=patient"}
           style={{ display: "flex", justifyContent: "space-between" }}
+          
         >
           <Typography.Title
             level={5}
@@ -33,7 +34,7 @@ const InitialCard: React.FC = () => {
       </Card.Grid>
       <Card.Grid style={{ width: "100%" }}>
         <Link
-          href={"/signin?type=nutricionist"}
+          href={"/sign-in?type=nutricionist"}
           style={{ display: "flex", justifyContent: "space-between" }}
         >
           <Typography.Title

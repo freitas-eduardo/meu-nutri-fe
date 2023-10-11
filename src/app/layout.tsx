@@ -1,7 +1,10 @@
 import '../styles/index.scss'
+import 'antd-css-utilities/utility.min.css'
 import style from "./root-layout.module.scss";
 import type { Metadata } from 'next'
 import { Roboto } from "next/font/google";
+
+
 
 const roboto = Roboto({
   subsets:['latin'],
