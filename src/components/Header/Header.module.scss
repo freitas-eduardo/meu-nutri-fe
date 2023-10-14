@@ -1,0 +1,20 @@
+@import '../../styles/global/variable.scss';
+
+.header{
+  background-color: $mn-background-header;
+  color: $mn-white-text;
+  width: 100%;
+  padding: $mn-spacing-xsmall $mn-spacing-base;
+  font-weight: $mn-font-weight-bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &-title{
+    color: $mn-white-text;
+  }
+
+  &-button{
+    color: $mn-white-text; 
+  }
+  
+}

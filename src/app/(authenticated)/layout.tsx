@@ -1,4 +1,5 @@
-import React from 'react';
+import Header from "@/components/Header";
+import React from "react";
 
 type AuthenticatedProps = {
   children: React.ReactNode;
@@ -6,11 +7,10 @@ type AuthenticatedProps = {
 
 const AuthenticatedLayout = ({ children }: AuthenticatedProps) => {
   return (
-    <div className="authenticated-layout">
-    {children}
-  </div>
-
+    <main className="authenticated-layout">
+      {children}
+    </main>
   );
-}
+};
 
 export default AuthenticatedLayout;

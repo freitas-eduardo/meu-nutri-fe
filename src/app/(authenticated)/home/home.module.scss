@@ -1,0 +1,19 @@
+@import '../../../styles/global/variable.scss';
+
+.home-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  &-title {
+    font-size: $mn-spacing-base;
+    font-weight: $mn-font-weight-bold;
+    margin: $mn-spacing-xxxxlarge 0 $mn-spacing-giant;
+  }
+  &-pacientes{
+    margin-bottom: $mn-spacing-xxxxlarge;
+  }
+  &-consultas{
+    margin-top: $mn-spacing-xxxxlarge;
+
+  }
+}
