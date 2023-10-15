@@ -19,7 +19,7 @@ import CountUp from "react-countup";
 
 const Home: React.FC = () => {
   const fullName = "Juliana Cardoso";
-  const formatter = (value: number) => <CountUp end={value} separator="." />;
+  const formatter = (value = 0) => <CountUp end={value} separator="." />;
   const items: MenuProps["items"] = [
     {
       key: "pacient_1",
@@ -61,7 +61,7 @@ const Home: React.FC = () => {
                 <Statistic
                   title="Meus Pacientes"
                   value={90}
-                  formatter={formatter}
+       
                 />
                 <Button className={'mt-5'} type="primary" size={'large'}>
                   Adicionar Paciente
